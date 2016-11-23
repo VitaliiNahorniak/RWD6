@@ -1,0 +1,250 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*  Mobile  */
+@media screen and (max-width: 767px) {
+
+	.yellow .hide{
+		display: none;
+	}
+
+	.block{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 60px;
+	}
+
+	.main{
+		padding: 20px;
+		max-width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.red{
+		height: 200px;
+		flex-basis: 100%;
+		background: red;
+		order: 0;
+	}
+
+	.orange{
+		margin-top: 20px;
+		height: 500px;
+		flex-basis: 100%;
+		background: orange;
+		order: 2;
+	}
+
+	.yellow{
+		margin-top: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 100%;
+		order: 1;
+	}
+
+	.yellow_one{
+		height: 500px;
+		flex: 100%;
+		background: yellow;
+	}
+
+	.green{
+		margin-top: 20px;
+		flex-basis: 100%;
+		height: 500px;
+		background: green;
+		order: 3;
+	}
+
+	.pink{
+		margin-top: 20px;
+		height: 500px;
+		flex-basis: 100%;
+		background: pink;
+		order: 4;
+	}
+	
+	.blue{
+		margin-top: 20px;
+		width: 100%;
+		height: 500px;
+		background: blue;
+		order: 5;
+	}
+}
+
+/*  TABLET  */
+@media screen and (min-width: 768px) and (max-width: 989px) {
+	
+	.yellow .hide{
+		display: none;
+	}
+
+	.main{
+		padding: 20px;
+		max-width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.block{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 60px;
+	}
+
+	.red{
+		height: 100px;
+		flex-basis: 100%;
+		background: red;
+		order: 0;
+	}
+	.orange{
+		margin-top: 20px;
+		height: 300px;
+		flex-basis: 74%;
+		background: orange;
+		order: 1;
+	}
+
+	.yellow{
+		margin-top: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 100%;
+		order: 3;
+	}
+
+	.yellow_one{
+		height: 400px;
+		flex: 100%;
+		background: yellow;
+		
+	}
+	
+	.green{
+		margin-top: 20px;
+		width: 24%;
+		height: 300px;
+		background: green;
+		order: 2;
+	}
+	.pink{
+		margin-top: 20px;
+		height: 500px;
+		flex-basis: 100%;
+		background: pink;
+		order: 4;
+	}
+	.blue{
+		margin-top: 20px;
+		width: 100%;
+		height: 250px;
+		background: blue;
+		order: 5;
+	}
+}
+
+/*  DESKTOP  */
+@media only screen and (min-width: 990px){
+	.main{
+		padding: 20px;
+		max-width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.block{
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		font-size: 60px;
+	}
+	.red{
+		height: 100px;
+		flex-basis: 100%;
+		background: red;
+		order: 0;
+	}
+	.orange{
+		margin-top: 20px;
+		height: 300px;
+		flex-basis: 100%;
+		background: orange;
+		order: 1;
+	}
+
+	.yellow{
+		margin-top: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 74%;
+		order: 2;
+	}
+
+	.y1{
+		height: 400px;
+		margin-right: 20px;
+		flex: 45%;
+		background: yellow;
+	}
+	.y2{
+		height: 400px;
+		flex: 45%;
+		background: yellow;
+	}
+	.y3{
+		height: 400px;
+		flex: 45%;
+		margin-top: 20px;
+		margin-right: 20px;
+		background: yellow;
+	}
+	.y4{
+		height: 400px;
+		flex: 45%;
+		margin-top: 20px;
+		background: yellow;
+	}
+
+	.green{
+		margin-top: 20px;
+		width: 25%;
+		height: 550px;
+		background: green;
+		order: 3;
+	}
+	.pink{
+		margin-top: 20px;
+		height: 500px;
+		flex-basis: 74%;
+		background: pink;
+		order: 4;
+	}
+	.blue{
+		margin-top: -250px;
+		width: 25%;
+		height: 550px;
+		background: blue;
+		order: 5;
+	}
+
+}
+
+
+
+
+
